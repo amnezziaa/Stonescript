@@ -1,0 +1,20 @@
+func handle_blade_of_god()
+  ?item.GetCooldown(＂blade＂) <= 0 & foe.count > 0
+    screen.Next()
+  :
+    screen.ResetOffset()
+  ?item.GetCooldown(＂blade＂) <= 0 & foe.distance < 25
+    equip blade_of_god
+    activate R
+
+?loc = caves
+  handle_blade_of_god()
+
+  ?pickup.distance < 10
+    equipR star stone
+    equipL triskelion
+  :?foe.distance >= 24
+    equipL triskelion
+    equipR oboros
+  :
+    loadout 5
