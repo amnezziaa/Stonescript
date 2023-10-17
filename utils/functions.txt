@@ -1,0 +1,16 @@
+func handle_blade_of_god()
+  ?item.GetCooldown(＂blade＂) <= 0 & foe.count > 0
+    screen.Next()
+  :
+    screen.ResetOffset()
+  ?item.GetCooldown(＂blade＂) <= 0 & foe.distance < 25
+    equip blade_of_god
+    activate R
+
+func dash_or_bash()
+  equipL moondial stone
+  ?StunImmunity = false & item.GetCooldown (＂bash＂) <= 0
+    equipR bashing shield
+  :
+    equipR dashing shield
+    

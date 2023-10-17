@@ -1,0 +1,21 @@
+var Functions = import Stonescript/utils/functions
+
+?loc = forest
+    Functions.handle_blade_of_god()
+
+    ?pickup.distance < 10
+        equipR star stone
+        equipL triskelion
+    :?foe.distance >= 24
+        equipL triskelion
+        equipR oboros
+    :?foe = boss
+        ?foe.distance >= 11 & item.GetCooldown(＂dash＂) <= 0
+            Functions.dash_or_bash()   
+        :
+            equipL poison hammer D
+            equipR moondial stone
+    :?foe.count >= 7
+        equip blade_of_god
+    :
+        loadout 5

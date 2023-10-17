@@ -1,4 +1,4 @@
-import Stonescript/farming/caves
+import Stonescript/farming/main
 
 ?hp < 9
   activate potion

@@ -1,6 +1,6 @@
 var Functions = import Stonescript/utils/functions
 
-?loc = caves
+?loc = mine
   Functions.handle_blade_of_god()
 
   ?pickup.distance < 10

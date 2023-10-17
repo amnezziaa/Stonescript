@@ -1,0 +1,19 @@
+var Functions = import Stonescript/utils/functions
+
+?loc = canyon
+    Functions.handle_blade_of_god()
+
+    ?pickup.distance < 10
+        equipR star stone
+        equipL triskelion
+    :?foe.distance >= 24
+        equipL triskelion
+        equipR oboros
+    :?foe = boss | foe.name = scarab
+        ?foe.distance >= 11 & item.GetCooldown(＂dash＂) <= 0
+            Functions.dash_or_bash()   
+        :
+            equipL poison hammer D
+            equipR moondial stone
+    :
+        loadout 5
