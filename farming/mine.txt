@@ -10,4 +10,4 @@ var Functions = import Stonescript/utils/functions
     equipL triskelion
     equipR oboros
   :
-    loadout 5
+    equip repeating crossbow

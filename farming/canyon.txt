@@ -16,4 +16,4 @@ var Functions = import Stonescript/utils/functions
             equipL poison hammer D
             equipR moondial stone
     :
-        loadout 5
+        equip repeating crossbow
