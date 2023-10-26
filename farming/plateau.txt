@@ -1,0 +1,9 @@
+?loc = plateau
+    ?pickup.distance < 10
+        equipR star stone
+        equipL triskelion
+    :?foe.distance >= 24
+        equipL triskelion
+        equipR oboros
+    :
+        equip repeating crossbow

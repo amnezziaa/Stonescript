@@ -9,5 +9,11 @@ var Functions = import Stonescript/utils/functions
   :?foe.distance >= 24
     equipL triskelion
     equipR oboros
+  :?foe = boss & foe.name = ceiling decorator
+    ?foe.distance >= 11 & item.GetCooldown(＂dash＂) <= 0
+      Functions.dash_or_bash()   
+    :
+      equipL poison hammer D
+      equipR moondial stone
   :
     equip repeating crossbow
