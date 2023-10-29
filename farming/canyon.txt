@@ -13,7 +13,7 @@ var Functions = import Stonescript/utils/functions
         ?foe.distance >= 11 & item.GetCooldown(＂dash＂) <= 0
             Functions.dash_or_bash()   
         :
-            equipL poison hammer D
+            equipL vigor hammer dL
             equipR moondial stone
     :
         equip repeating crossbow

@@ -10,8 +10,10 @@ var Functions = import Stonescript/utils/functions
         equipL triskelion
         equipR oboros
     :?foe = boss
-        ?foe.distance >= 11 & item.GetCooldown(＂dash＂) <= 0
-            Functions.dash_or_bash()   
+        ?foe.name = "mr. puff" & foe.distance < 4
+            equipR mind stone
+        :?foe.distance >= 11 & item.GetCooldown(＂dash＂) <= 0
+            Functions.dash_or_bash()
         :
             equipL poison hammer D
             equipR moondial stone

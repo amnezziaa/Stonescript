@@ -1,4 +1,6 @@
 import Stonescript/farming/main
+import UI/BetterInfo2
+import UI/inGameTime
 
 ?hp < 9
   activate potion
