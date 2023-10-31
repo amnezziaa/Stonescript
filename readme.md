@@ -5,7 +5,7 @@ Note that all of it is in a very WIP state for now.
 
 ## Helpful wiki pages
 
-- [Runestone Crafting](https://stone-story-rpg.fandom.com/wiki/Runestone_Craftin)
+- [Runestone Crafting](https://stone-story-rpg.fandom.com/wiki/Runestone_Crafting)
 - [Location](https://stone-story-rpg.fandom.com/wiki/Locations)
 - [Brewing](https://stone-story-rpg.fandom.com/wiki/Brewing)
 - [Enchantments](https://stone-story-rpg.fandom.com/wiki/Enchanting)
