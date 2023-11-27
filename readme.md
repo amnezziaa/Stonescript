@@ -1,7 +1,6 @@
-# Stonescripts 🏞️
+# Stonescript 🏞️
 
-This repository is used to handle my [Stonestory scripts](https://stonestoryrpg.com/stonescript/manual.html)
-Note that all of it is in a very WIP state for now.
+This repository is used to store my [Stonestory scripts](https://stonestoryrpg.com/stonescript/manual.html). Note that all of it is in a very WIP state for now.
 
 ## Helpful wiki pages
 
